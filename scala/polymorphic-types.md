@@ -21,3 +21,11 @@ In programming it means that
 We have seen two principal forms of polymorphism:
 - subtyping: instances of a subclass can be passed to a base class
 - generics: instances of a function or class are created by type parameterization.
+
+
+## Type Bounds
+
+- def methodName[A <: B]:
+- `A <: B` means: `A` is a subtype of `B` (Upper Bounds)
+- `A >: B` means: `A` is a supertype of `B` , or `B` is a subtype of `A`. (Lower Bounds)
+- `A <: B >: C` means:
