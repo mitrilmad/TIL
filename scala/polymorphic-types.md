@@ -1,6 +1,6 @@
-#polymorphic types
+# polymorphic types
 
-##TYPES AND EVALUATION
+## TYPES AND EVALUATION
 
 Type parameters do not affect evaluation in Scala.
 
@@ -12,7 +12,7 @@ Languages that use type erasure include Java, Scala, Haskell, ML, OCaml.
 
 Some other languages keep the type parameters around at run time, these include C++, C#, F#.
 
-##POLYMORPHISM
+## POLYMORPHISM
 
 In programming it means that
 -the function can be applied to arguments of many types, or
