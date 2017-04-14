@@ -28,4 +28,4 @@ We have seen two principal forms of polymorphism:
 - def methodName[A <: B]:
 - `A <: B` means: `A` is a subtype of `B` (Upper Bounds)
 - `A >: B` means: `A` is a supertype of `B` , or `B` is a subtype of `A`. (Lower Bounds)
-- `A <: B >: C` means:
+- `A <: B >: C` means: restrict A any type on the interval between B and C
