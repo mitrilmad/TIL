@@ -1,4 +1,5 @@
 ## Lazy EVALUATION
+===============
 
 ```
 object Stream {
@@ -17,7 +18,7 @@ object Stream {
 }
 ```
 
-elements are only computed when they are needed, where “needed” means that someone calls tail on the stream. (call by name)
+elements are only computed when they are needed, where “needed” means that someone calls tail on the stream. (call by name)</hr>
 
-call by name : every formal parameter called , then real parameter is computed by
-call by value : before calling function, computed subfunction value
+- call by name : every formal parameter called , then real parameter is computed by
+- call by value : before calling function, computed subfunction value
