@@ -1,6 +1,6 @@
 # Today I Learned
 
-새로 배운 것을 coomit. [thoughtbot til 참고](https://github.com/thoughtbot/til)
+새로 배운 것을 commit. [thoughtbot til 참고](https://github.com/thoughtbot/til)
 
 ## 작성 규칙
 - 문서 생성은 [GFM (Github Flavored Markdown)](https://help.github.com/articles/github-flavored-markdown/) 을 사용한다. (확장자 `.md`)
