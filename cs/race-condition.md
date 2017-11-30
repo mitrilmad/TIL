@@ -1,4 +1,3 @@
-### category is for review former cs basic.
 
 ## Race Condition
 - Race conditions arise in software when an application depends on the sequence or timing of processes or threads for it to operate properly.
