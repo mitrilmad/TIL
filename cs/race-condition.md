@@ -11,3 +11,9 @@
 
 ### critical section
 - 프로세스 입장에서 공용 데이터에 접근하는 부분을 critical region or critical section 이라고 부름. 두 프로세스가 동시에 critical section에 들어가지 않도록 할 수 있으면 race condition 피할 수 있음.
+
+### deadlock
+- 상호배제(Mutual exclusion) : 프로세스들이 필요로 하는 자원에 대해 배타적인 통제권을 요구한다.
+- 점유대기(Hold and wait) : 프로세스가 할당된 자원을 가진 상태에서 다른 자원을 기다린다.
+- 비선점(No preemption) : 프로세스가 어떤 자원의 사용을 끝낼 때까지 그 자원을 뺏을 수 없다.
+- 순환대기(Circular wait) : 각 프로세스는 순환적으로 다음 프로세스가 요구하는 자원을 가지고 있다.
